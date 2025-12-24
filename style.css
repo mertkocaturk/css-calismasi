@@ -1,0 +1,159 @@
+/* CSS TEST */
+/* body{
+
+    background-color: red;
+} */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ body{
+    background-color: bisque;
+ }
+
+ .kart{
+    font-size: 30px;
+    border: 2px groove black;
+    padding-right: 100px;
+   margin: 50px;
+ }
+
+ .kart2{
+   border-width: 2px;
+   border-color: red;
+   border-style: dashed;
+   width: min-content;
+   margin:0 auto;
+ }
+
+ .kart3{
+   background-color: red;
+   border: 3px solid blueviolet;
+   margin-top: 30px;
+ }
+
+ .blok{
+   border: 2px solid white;
+   color: white;
+   margin: 10px;
+   display: inline;
+ }
+
+ .kart4{
+   background-color: goldenrod;
+   padding: 20px;
+   margin-top: 20px;
+   display: flex;
+
+ }
+
+ .el{
+   background-color: purple;
+   color: white;
+   height: min-content;
+   padding: 5px;
+   width: min-content;
+ }
+
+ .kart5{
+   display: flex;
+   background-color: cadetblue;
+   margin-top: 30px;
+   padding: 20px;
+   height: 400px;
+
+   justify-content: center;  /*center, left,right, start,end gibi değerler alabilir */
+
+   align-items: center;
+
+   gap: 10px;
+
+
+
+ }
+
+ .kart6{
+   display: flex;
+   background-color: orangered;
+   margin-top: 20px;
+   padding: 20px 0;
+   justify-content: space-between;
+ }
+
+
+ .kart7{
+   display: flex;
+   background-color: rgb(23, 190, 23);
+   margin-top: 20px;
+   padding: 20px 0;
+   justify-content: space-around;
+ }
+
+.kart8{
+   display: flex;
+   background-color: rgb(66, 14, 209);
+   margin-top: 20px;
+   padding: 20px 0;
+   justify-content: space-evenly;
+ }
+
+
+
+.kart9{
+  background-color: chocolate;
+  height: 500px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: space-around;
+}
+
+.kart10{
+  display: flex;
+  background-color: aqua;
+  padding: 20px;
+  gap: 20px;
+  overflow: scroll;
+}
+
+.kart11{
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  background-color: crimson;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+ .navigasyon{
+  background-color: gray;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.linkler{
+  display: flex;
+  gap: 20px;
+
+}
+
+.linkler a{
+  color: white;
+  text-decoration: none;
+  
+}
+
